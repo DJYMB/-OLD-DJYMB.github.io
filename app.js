@@ -17,7 +17,7 @@ btn1.addEventListener("click", function(){
 		tg.MainButton.hide();
 	}
 	else {
-		tg.MainButton.setText("Вы выбрали товар 1!");
+		tg.MainButton.setText("Bank!");
 		item = "1";
 		tg.MainButton.show();
 	}
@@ -28,7 +28,7 @@ btn2.addEventListener("click", function(){
 		tg.MainButton.hide();
 	}
 	else {
-		tg.MainButton.setText("Вы выбрали товар 2!");
+		tg.MainButton.setText("My Catalog!");
 		item = "2";
 		tg.MainButton.show();
 	}
@@ -39,7 +39,7 @@ btn3.addEventListener("click", function(){
 		tg.MainButton.hide();
 	}
 	else {
-		tg.MainButton.setText("Вы выбрали товар 3!");
+		tg.MainButton.setText("Balance!");
 		item = "3";
 		tg.MainButton.show();
 	}
@@ -50,7 +50,7 @@ btn4.addEventListener("click", function(){
 		tg.MainButton.hide();
 	}
 	else {
-		tg.MainButton.setText("Вы выбрали товар 4!");
+		tg.MainButton.setText("Debitores!");
 		item = "4";
 		tg.MainButton.show();
 	}
