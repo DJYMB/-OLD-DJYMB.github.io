@@ -7,43 +7,87 @@ body {
 }
 
 .container {
-	max-width: 390px;
+    width: 390px;
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box;
 }
 
-.inner {
-	display: grid;
-	grid-template-columns: 1fr 1fr;
-	grid-template-rows: 200px 200px 200px;
+
+.balance {
+    text-align: center;
+    margin-top: 20px;
 }
 
-.img {
-	min-width: 150px;
-	max-height: 150px;
-	max-width: 150px;
-	min-height: 150px;
+.balance h2 {
+    font-size: 1.5em;
+    margin-bottom: 5px;
 }
 
-.item {
-	text-align: center;
+.balance-amount {
+    font-size: 1.2em;
+    margin-bottom: 10px;
 }
 
-.btn {
-	margin: 10px auto;
-	padding: 10px 20px;
-	border: none;
-	background: rgb(10, 186, 181);
-	border-radius: 10px;
-	color: #fff;
-	text-transform: uppercase;
-	font-weight: 700;
-
-	transition: background .2s linear;
+.add-button {
+    background-color: #0088cc;
+    color: white;
+    padding: 5px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
-.btn:hover {
-	background: orange;
+.action-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
 }
 
-.usercard {
-	text-align: center;
+.action-button {
+    background-color: #0088cc;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.currencies {
+    margin-top: 30px;
+}
+
+.currencies h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.currency-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.currency-list li {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
+
+.transaction-history {
+    margin-top: 30px;
+}
+
+.transaction-history h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.transaction-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.transaction-list li {
+    font-size: 1.2em;
+    margin-bottom: 5px;
 }
