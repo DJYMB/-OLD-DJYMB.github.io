@@ -2,11 +2,11 @@ body {
 	margin: 0;
 	padding: 0;
 	font-size: 18px;
-	line-height: 1.5;
 	color: var(--tg-theme-text-color);
 	background: var(--tg-theme-bg-color);
 	float: var(--tg-viewport-height);
 	font-family: "Verdana", sans-serif;
+	-webkit-font-smoothing: antialiased;
 }
 
 .container {
@@ -22,9 +22,10 @@ body {
     font-size: 18px;
 }
 
-.balance h2 {
-    font-size: 1.2em;
-    margin-bottom: 5px;
+.top-balance h2 {
+	text-align: center;
+    font-size: 14px;
+	margin-top: 
 }
 
 .balance-amount {
