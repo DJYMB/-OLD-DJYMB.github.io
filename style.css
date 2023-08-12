@@ -4,11 +4,12 @@ body {
 	font-size: 18px;
 	color: var(--tg-theme-text-color);
 	background: var(--tg-theme-bg-color);
+	float: var(--tg-viewport-height)
 }
 
 .container {
 	max-width: 390px;
-	padding-top: 30px;
+	padding-top: 25px;
 	padding-left: 20px;
 	padding-right: 20px;
 }
