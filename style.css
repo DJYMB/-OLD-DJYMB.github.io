@@ -1,3 +1,9 @@
+@font-face {
+	font-family: Better VCR;
+	font-weight: normal;
+	src: url(font/Better-VCR/better-vcr_0.ttf);
+}
+
 body {
 	margin: 0;
 	padding: 0;
@@ -5,32 +11,33 @@ body {
 	color: var(--tg-theme-text-color);
 	background: var(--tg-theme-bg-color);
 	float: var(--tg-viewport-height);
-	font-family: "Verdana", sans-serif;
+	font-family: "Verdana", "Better VCR", sans-serif;
 	-webkit-font-smoothing: antialiased;
 }
 
 .container {
 	max-width: 390px;
-	padding-top: 25px;
+	padding-top: 10px;
 	padding-left: 20px;
 	padding-right: 20px;
 }
 
 .balance {
     text-align: center;
-    margin-top: 20px;
     font-size: 18px;
 }
 
 .top-balance h2 {
 	text-align: center;
     font-size: 14px;
-	margin-top: 
+	font-weight: bolder;
 }
 
 .balance-amount {
-    font-size: 24px;
+    font-size: 32px;
     font-weight: bold;
+	font-family: "Better VCR", sans-serif;
+	margin-top: px;
 }
 
 .currency-symbol {
